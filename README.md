@@ -1,7 +1,7 @@
-# estatistica
+# Estatística
 Um caminho para educação autodidata em estatística
 
-# Sumário
+## Sumário
 
 O Curso de Estatística é **uma educação completa em estatística** usando materiais on-line em Português do Brasil e em Inglês.
 Esse Curso é pensado para aqueles que desejam uma educação própria, *com qualidade*, e é planejada para alunos com disciplina, comprometimento e (o mais importante) bons hábitos de estudo majoritariamente independentes.
@@ -25,11 +25,11 @@ Levamos em consideração (apesar de não ter implementado completamente como su
 **Custo**. Todos os cursos podem ser completados de forma gratuita. Porém, alguns cursos têm diplomas, certificados, atividades ou extras opcionais que são pagos.
 Observe que o [Coursera](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid) oferece ajuda financeira.
 
-# Antes de começar
+## Antes de começar
 
 Existem tópicos que, apesar de não serem essenciais na formação de Ciência da Computação, podem ser muito úteis na sua jornada de aprendizado. Caso queira você pode pulá-los ou vê-los depois.
 
-## Técnicas de estudo, organização e aprendizagem
+### Técnicas de estudo, organização e aprendizagem
 
 Antes de começar a estudar é importante que você aprenda algumas coisas importantes. Ser autodidata não é sobre aprender sozinho, nem sobre não estar vinculado à uma Instituição de Ensino Superior (IES), mas sobre **ser responsável pelo seu próprio ensino** e isso é algo que exige saber como estudar, o quanto estudar, como organizar seus estudos... e para isso recomendamos os seguintes conteúdos abaixo.
 
@@ -40,7 +40,7 @@ Curso | Duração | Dedicação | Conteúdos | Status
 
 ¹ Disponível com legendas em Português.
 
-## Git e GitHub
+### Git e GitHub
 
 Conhecer ferramentas como o Git irá te ajudar a organizar seus projetos de estudo, enquanto que o GitHub (ou outras plataformas como BitBucket ou GitLab) pode ser muito útil para trabalhar remoto e compartilhar os seus projetos com colegas, além de poder usá-lo como portfólio em futuras oportunidades de trabalho.  
 
