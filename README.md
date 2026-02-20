@@ -35,7 +35,7 @@ Antes de começar a estudar é importante que você aprenda algumas coisas impor
 
 Curso | Duração | Dedicação | Conteúdos | Status
 :-- | :--: | :--: | :--: | :--:
-[Aprendendo a aprender](https://pt.coursera.org/learn/aprender) ¹ | 3 Semanas | 5 horas/semana | Memória; Técnicas de estudo; Recursos de estudo. | [Concluido](https://www.coursera.org/account/accomplishments/verify/U3BVFRSHXDA3)
+[Aprendendo a aprender](https://pt.coursera.org/learn/aprender) ¹ | 3 Semanas | 5 horas/semana | Memória; Técnicas de estudo; Recursos de estudo. |
 [Como estudar do jeito certo](https://www.youtube.com/playlist?list=PL5TJqBvpXQv7Q2lT7L7BrTrh6tgZY872s) | 3 Semanas | 2 horas/semana | Tempo; Técnica; Discussão. |
 
 ¹ Disponível com legendas em Português.
@@ -46,7 +46,7 @@ Conhecer ferramentas como o Git irá te ajudar a organizar seus projetos de estu
 
 Curso | Duração | Dedicação | Conteúdos | Status
 :-- | :--: | :--: | :--: | :--:
-[Git e Github para Iniciantes](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A) | 2 Dias | 2 horas/dia | Git; GitHub; Controle de versão. | Iniciado 25/09/2023
+[Git e Github para Iniciantes](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A) | 2 Dias | 2 horas/dia | Git; GitHub; Controle de versão. | 
 [Git e GitHub](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) | 4 Semanas | 5 horas/semana | Git; GitHub; Controle de versão. | 
 
 ## Currículo
