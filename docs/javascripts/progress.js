@@ -3,12 +3,29 @@ document.addEventListener("DOMContentLoaded", function() {
     const tables = document.querySelectorAll('.md-typeset table');
     
     tables.forEach(table => {
+        const thead = table.querySelector('thead');
         const tbody = table.querySelector('tbody');
-        if (!tbody) return;
+        if (!tbody || !thead) return;
         
+        const headerRow = thead.querySelector('tr');
+        if (!headerRow) return;
+
+        // Verifica se já existe uma coluna "Status"
+        const headers = Array.from(headerRow.querySelectorAll('th'));
+        let statusColIndex = headers.findIndex(th => th.textContent.trim().toLowerCase() === 'status');
+        let isNewColumn = false;
+
+        if (statusColIndex === -1) {
+            // Se não existir, cria uma nova coluna "Status" no cabeçalho
+            const statusTh = document.createElement('th');
+            statusTh.textContent = 'Status';
+            headerRow.appendChild(statusTh);
+            statusColIndex = headers.length; // Novo índice será o último
+            isNewColumn = true;
+        }
+
         const rows = tbody.querySelectorAll('tr');
         rows.forEach((row, index) => {
-            // Pega a primeira célula para criar um ID único baseado no nome da aula
             const firstCell = row.querySelector('td');
             if (!firstCell) return;
             
@@ -20,15 +37,26 @@ document.addEventListener("DOMContentLoaded", function() {
             const cleanStr = (pagePath + courseName).replace(/[^a-zA-Z0-9]/g, '');
             const uniqueId = 'completed-' + cleanStr;
 
-            // Encontra a última célula (Coluna Status ou equivalente)
-            const cells = row.querySelectorAll('td');
-            const lastCell = cells[cells.length - 1];
+            // Encontra a célula correta ou cria uma nova se adicionamos a coluna
+            let targetCell;
+            if (isNewColumn) {
+                targetCell = document.createElement('td');
+                row.appendChild(targetCell);
+            } else {
+                const cells = row.querySelectorAll('td');
+                targetCell = cells[statusColIndex];
+                // Caso a linha tenha menos colunas que o cabeçalho (markdown mal formatado)
+                if (!targetCell) {
+                    targetCell = document.createElement('td');
+                    row.appendChild(targetCell);
+                }
+            }
             
             // Cria o botão
             const btn = document.createElement('button');
             btn.className = 'progress-btn';
             
-            // Verifica se o aluno já concluiu (no Local Storage do navegador dele)
+            // Verifica se o aluno já concluiu (no Local Storage)
             const isCompleted = localStorage.getItem(uniqueId) === 'true';
             
             // Função para atualizar o visual
@@ -47,23 +75,19 @@ document.addEventListener("DOMContentLoaded", function() {
             // Aplica estado inicial
             updateUI(isCompleted);
             
-            // O que acontece ao clicar no botão
+            // Evento de clique
             btn.addEventListener('click', function(e) {
                 e.preventDefault();
-                // Lê o estado atual
                 const currentState = localStorage.getItem(uniqueId) === 'true';
                 const newState = !currentState;
                 
-                // Salva no navegador
                 localStorage.setItem(uniqueId, newState);
-                
-                // Atualiza visual
                 updateUI(newState);
             });
             
-            // Substitui o conteúdo da última coluna pelo botão
-            lastCell.innerHTML = '';
-            lastCell.appendChild(btn);
+            // Adiciona o botão na célula correta (limpando o conteúdo anterior se houver)
+            targetCell.innerHTML = '';
+            targetCell.appendChild(btn);
         });
     });
 });
