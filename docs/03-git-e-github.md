@@ -7,4 +7,3 @@ Curso | Duração | Dedicação | Conteúdos | Status
 [Git e Github para Iniciantes](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A) | 2 Dias | 2 horas/dia | Git; GitHub; Controle de versão. | 
 [Git e GitHub](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) | 4 Semanas | 5 horas/semana | Git; GitHub; Controle de versão. | 
 
-## Currículo
