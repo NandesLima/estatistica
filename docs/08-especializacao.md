@@ -1,4 +1,10 @@
-### Especialização
+# 🔬 Módulo 5: Especialização e Modelagem
+
+Uma vez que você domina as ferramentas estatísticas universais, é hora de entender como elas se aplicam a subáreas muito específicas do conhecimento humano.
+
+Neste módulo, você estudará temas como **Análise de Séries Temporais** (como prever o mercado financeiro ou a demanda futura) e **Estatística Espacial** (como analisar o impacto geográfico de uma doença). Você começará a ver a estatística não como uma matéria isolada, mas como a lente através da qual interpretamos a economia, a biologia e as finanças.
+
+---
 
 | **Curso** | **Ementa** | **Pré-requisito(s)** |
 | --- | --- | --- |

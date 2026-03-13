@@ -1,4 +1,10 @@
-### Tópicos de estatística I
+# 💡 Módulo 7: Tópicos de Estatística I
+
+Na reta final do nosso currículo, exploramos áreas modernas e computacionais da estatística. A estatística do século XXI é feita em servidores, não com papel e caneta.
+
+Este módulo fará a ponte definitiva entre a teoria estocástica clássica e as técnicas contemporâneas de computação intensiva, preparando você para as ferramentas mais modernas utilizadas pelas maiores empresas de tecnologia do mundo.
+
+---
 
 | **Curso** | **Ementa** | **Pré-requisito(s)** |
 | --- | --- | --- |

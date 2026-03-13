@@ -1,4 +1,10 @@
-### Estatística avançada
+# 📈 Módulo 4: Estatística Avançada
+
+Nesta etapa, o nível de profundidade aumenta consideravelmente. Você não está mais apenas aplicando fórmulas; você está entendendo a mecânica profunda por trás delas.
+
+Entraremos em tópicos rigorosos de **Inferência Estatística Avançada** e modelagem matemática complexa. Este módulo separa os entusiastas dos verdadeiros estatísticos profissionais. É aqui que você desenvolverá a maturidade matemática necessária para ler e compreender artigos científicos (papers) na área de Ciência de Dados e IA.
+
+---
 
 | **Curso** | **Ementa** | **Pré-requisito(s)** |
 | --- | --- | --- |

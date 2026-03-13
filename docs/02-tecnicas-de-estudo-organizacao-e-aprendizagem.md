@@ -1,6 +1,10 @@
-### Técnicas de estudo, organização e aprendizagem
+# 🧠 Técnicas de Estudo e Aprendizado
 
-Antes de começar a estudar é importante que você aprenda algumas coisas importantes. Ser autodidata não é sobre aprender sozinho, nem sobre não estar vinculado à uma Instituição de Ensino Superior (IES), mas sobre **ser responsável pelo seu próprio ensino** e isso é algo que exige saber como estudar, o quanto estudar, como organizar seus estudos... e para isso recomendamos os seguintes conteúdos abaixo.
+Ser um aluno autodidata não significa apenas "aprender sozinho" ou não estar matriculado em uma universidade formal. Significa, acima de tudo, **assumir o controle e a responsabilidade pelo seu próprio desenvolvimento**.
+
+Isso exige maestria em como estudar de forma inteligente, como organizar seu tempo, como reter informações complexas e como evitar a procrastinação. Os cursos abaixo não ensinam estatística, eles ensinam **como o seu cérebro aprende**. E isso é a habilidade mais importante que você pode desenvolver.
+
+---
 
 Curso | Duração | Dedicação | Conteúdos | Status
 :-- | :--: | :--: | :--: | :--:

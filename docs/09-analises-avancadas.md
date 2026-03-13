@@ -1,4 +1,10 @@
-### Análises avançadas
+# 🚀 Módulo 6: Análises Avançadas e Multivariadas
+
+No mundo real, os problemas não têm apenas uma ou duas variáveis — eles têm dezenas, centenas, às vezes milhões. Como analisar o impacto simultâneo da renda, escolaridade, CEP, gênero e idade em uma única variável alvo?
+
+A **Análise Multivariada** é a resposta e o coração da Ciência de Dados moderna. Aqui você começará a usar matrizes e álgebra linear aplicada para lidar com grandes conjuntos de informações simultâneas, servindo como o trampolim perfeito para quem deseja se especializar em *Machine Learning* depois.
+
+---
 
 | **Curso** | **Ementa** | **Pré-requisito(s)** |
 | --- | --- | --- |

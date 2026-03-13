@@ -1,4 +1,12 @@
-### Introdução à estatística e matemática
+# 📐 Módulo 1: Introdução à Estatística e Matemática
+
+Chegou a hora de colocar a mão na massa! Este módulo inicial foi desenhado para nivelar os seus conhecimentos básicos. 
+
+Aqui, você será apresentado aos conceitos fundamentais que sustentam toda a Estatística moderna. Passaremos por **Geometria Analítica** (para que você entenda como os dados se comportam em um plano espacial) e faremos uma forte introdução à **Matemática Básica e Lógica** necessária para não travar nas fórmulas mais complexas no futuro.
+
+Prepare o caderno e vamos construir os alicerces.
+
+---
 
 | **Curso** | **Ementa** | **Pré-requisito(s)** |
 | --- | --- | --- |

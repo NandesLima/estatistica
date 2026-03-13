@@ -1,4 +1,10 @@
-### Tópicos de estatística II
+# 🎓 Módulo 8: Tópicos de Estatística II e Conclusão
+
+O último degrau da sua jornada autodidata em Estatística. Este módulo foca nas ramificações mais complexas e nas aplicações que estão na fronteira do conhecimento atual.
+
+A conclusão desta etapa marca o fim do currículo obrigatório e o início da sua vida profissional (ou acadêmica). Você desenvolveu uma base teórica e prática invejável. Parabéns por chegar até aqui!
+
+---
 
 | **Curso** | **Ementa** | **Pré-requisito(s)** |
 | --- | --- | --- |

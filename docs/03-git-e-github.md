@@ -1,6 +1,12 @@
-### Git e GitHub
+# 🐙 Git e GitHub: Seu Portfólio nas Nuvens
 
-Conhecer ferramentas como o Git irá te ajudar a organizar seus projetos de estudo, enquanto que o GitHub (ou outras plataformas como BitBucket ou GitLab) pode ser muito útil para trabalhar remoto e compartilhar os seus projetos com colegas, além de poder usá-lo como portfólio em futuras oportunidades de trabalho.  
+Como estudante de Estatística e futuro profissional de Dados (seja como Cientista de Dados, Analista ou Engenheiro), **escrever código será parte do seu dia a dia**. 
+
+O **Git** é a ferramenta definitiva para controle de versão, permitindo que você experimente com código sem medo de quebrar as coisas. O **GitHub** é a rede social dos desenvolvedores e o lar do movimento Open Source. É aqui que você vai hospedar seus projetos práticos, colaborar com outras pessoas e, mais importante, **construir o seu portfólio profissional** para apresentar a futuros empregadores.
+
+Dedique alguns dias para entender o básico dessas ferramentas. Elas serão suas fiéis escudeiras.
+
+---
 
 Curso | Duração | Dedicação | Conteúdos | Status
 :-- | :--: | :--: | :--: | :--:

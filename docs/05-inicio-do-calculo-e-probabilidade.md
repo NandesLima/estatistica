@@ -1,4 +1,12 @@
-### Início do Cálculo e Probabilidade
+# 🧮 Módulo 2: O Início do Cálculo e Probabilidade
+
+A Estatística pura não existe sem o Cálculo. É ele quem nos permite entender as variações contínuas, as curvas de distribuição e os limites dos nossos dados.
+
+Neste módulo, você iniciará a jornada por uma das áreas mais belas e temidas da matemática: o **Cálculo Diferencial e Integral**. Em paralelo, você será formalmente apresentado à **Teoria da Probabilidade**, aprendendo não apenas a calcular a chance de jogar um dado, mas as distribuições estatísticas que regem os fenômenos reais do mundo.
+
+Respire fundo, pois este é um dos módulos mais desafiadores e transformadores do curso!
+
+---
 
 | **Curso** | **Ementa** | **Pré-requisito(s)** | Status |
 | --- | --- | --- | --- |

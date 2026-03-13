@@ -1,4 +1,10 @@
-### Estatística aplicada
+# 📊 Módulo 3: Estatística Aplicada
+
+Chegou o momento de ver a teoria se encontrar com a realidade. A Estatística só tem valor quando nos ajuda a resolver problemas concretos e a tomar decisões baseadas em evidências.
+
+Neste módulo, o foco sai um pouco do quadro-negro com fórmulas abstratas e vai para a **aplicação direta**. Você aprenderá como coletar amostras da maneira certa, como desenhar experimentos rigorosos e como inferir conclusões sobre uma população inteira a partir de um pequeno conjunto de dados.
+
+---
 
 | **Curso** | **Ementa** | **Pré-requisito(s)** |
 | --- | --- | --- |
