@@ -45,3 +45,5 @@ markdown_extensions:
 extra_css:
   - stylesheets/custom.css
   - stylesheets/global-modern.css
+extra_javascript:
+  - javascripts/progress.js

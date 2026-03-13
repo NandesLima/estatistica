@@ -86,3 +86,41 @@
 [data-md-color-scheme="slate"] .md-sidebar {
   background-color: transparent;
 }
+
+/* Interatividade - Botão de Progresso */
+.progress-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  color: var(--text-color);
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--font-main);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.progress-btn:hover {
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 10px rgba(0, 242, 255, 0.2);
+}
+
+.progress-btn.completed {
+  background: rgba(0, 255, 128, 0.1);
+  border-color: #00ff80;
+  color: #00ff80;
+  box-shadow: 0 0 10px rgba(0, 255, 128, 0.2);
+}
+
+.md-typeset tr.row-completed td {
+  opacity: 0.5;
+  background: rgba(0, 255, 128, 0.02) !important;
+  transition: var(--transition);
+}
+
+.md-typeset tr.row-completed td:first-child a {
+  text-decoration: line-through;
+  color: #888;
+}
