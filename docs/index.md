@@ -1,26 +1,28 @@
----
-hide:
-  - navigation
-  - toc
----
-
 <div class="modern-landing">
+
+  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h1 class="hero-title">Universidade de <span>Estatística</span></h1>
-      <p class="hero-subtitle">Um caminho open-source e autodidata para a maestria em análise de dados, probabilidade e matemática avançada.</p>
-      <a href="01-antes-de-comecar/" class="btn btn-primary">Começar a Aprender</a>
+      <h1 class="hero-title">
+        Universidade de<span>Estatística</span>
+      </h1>
+      <p class="hero-subtitle">
+        Um caminho open-source para educação autodidata em Estatística, com cursos das melhores universidades do mundo.
+      </p>
+      <div class="hero-actions">
+        <a href="README/" class="btn btn-primary">Começar a Aprender</a>
+      </div>
     </div>
     <div class="hero-visual">
       <div class="hero-img-container">
-        <!-- Imagem genérica super legal focada em dados/tecnologia (Unsplash) -->
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Data and Math">
+        <img src="assets/ai-landing.jpg" alt="Estatística Visual">
       </div>
     </div>
   </section>
 
-  <section class="features">
-    <span class="section-tag">O Método</span>
+  <!-- O MÉTODO Section -->
+  <section class="info-section">
+    <span class="section-tag">O MÉTODO</span>
     <div class="grid">
       <div class="card">
         <h3>🎓 100% Gratuito</h3>
@@ -28,7 +30,7 @@ hide:
       </div>
       <div class="card">
         <h3>📈 Do Básico ao Avançado</h3>
-        <p>Do Cálculo fundamental até as análises estatísticas mais avançadas.</p>
+        <p>Da Probabilidade básica até Modelagem Estatística Avançada e Inferência.</p>
       </div>
       <div class="card">
         <h3>🎯 Gamificado</h3>
@@ -36,4 +38,24 @@ hide:
       </div>
     </div>
   </section>
+
+  <!-- A ARQUITETURA Section -->
+  <section class="info-section">
+    <span class="section-tag">A ARQUITETURA</span>
+    <div class="grid">
+      <div class="card">
+        <h3>📚 Duas Velocidades</h3>
+        <p>Acesse o material acadêmico denso e resumos focados em aplicação prática.</p>
+      </div>
+      <div class="card">
+        <h3>💻 Foco em Dados</h3>
+        <p>Aprenda a fundamentação matemática por trás dos algoritmos de Data Science.</p>
+      </div>
+      <div class="card">
+        <h3>⚙️ Rastreador Local</h3>
+        <p>Um sistema de ✅ Concluído inteligente que salva seu progresso offline no próprio navegador.</p>
+      </div>
+    </div>
+  </section>
+
 </div>

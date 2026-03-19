@@ -1,6 +1,6 @@
-site_name: Universidade de Estatística Autodidata
+site_name: Estatística OSSU
 site_url: https://NandesLima.github.io/estatistica/
-site_description: Um caminho open-source para educação autodidata em estatística
+site_description: Um caminho open-source para educação autodidata em Estatística.
 theme:
   name: material
   features:
@@ -8,13 +8,9 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - navigation.tabs
+    - navigation.expand
   palette:
-    - scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Mudar para modo noturno
     - scheme: slate
       primary: black
       accent: indigo
@@ -22,28 +18,17 @@ theme:
         icon: material/brightness-4
         name: Mudar para modo claro
 
+extra_css:
+  - stylesheets/custom.css
+  - stylesheets/global-modern.css
+
 nav:
   - 'Início': index.md
-  - 'Antes de começar': 01-antes-de-comecar.md
-  - 'Técnicas de estudo, organização e aprendizagem': 02-tecnicas-de-estudo-organizacao-e-aprendizagem.md
-  - 'Git e GitHub': 03-git-e-github.md
-  - 'Introdução à estatística e matemática': 04-introducao-à-estatistica-e-matematica.md
-  - 'Início do Cálculo e Probabilidade': 05-inicio-do-calculo-e-probabilidade.md
-  - 'Estatística aplicada': 06-estatistica-aplicada.md
-  - 'Estatística avançada': 07-estatistica-avancada.md
-  - 'Especialização': 08-especializacao.md
-  - 'Análises avançadas': 09-analises-avancadas.md
-  - 'Tópicos de estatística I': 10-topicos-de-estatistica-i.md
-  - 'Tópicos de estatística II': 11-topicos-de-estatistica-ii.md
+  - 'Currículo': README.md
+  - 'Sobre': README.md
 
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.tasklist
   - tables
-
-extra_css:
-  - stylesheets/custom.css
-  - stylesheets/global-modern.css
-extra_javascript:
-  - javascripts/progress.js
