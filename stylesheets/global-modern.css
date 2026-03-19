@@ -1,0 +1,126 @@
+/* ... appended at the end ... */
+
+/* Modernizing ALL documentation pages */
+
+/* Cool glowing headers */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  color: var(--text-color);
+  font-weight: 800;
+}
+
+.md-typeset h1 {
+  background: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+/* Glassmorphism tables */
+.md-typeset table:not([class]) {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  display: table;
+  width: 100%;
+}
+
+.md-typeset table:not([class]) th {
+  background: rgba(0, 242, 255, 0.1);
+  color: var(--accent-primary);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.md-typeset table:not([class]) td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  transition: var(--transition);
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: rgba(255,255,255,0.02);
+}
+
+/* Nice buttons for all standard links inside content */
+.md-typeset a:not(.md-content__button) {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+}
+.md-typeset a:not(.md-content__button):hover {
+  text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+}
+
+/* Global scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+}
+
+/* Clean up the page background */
+[data-md-color-scheme="slate"] body {
+  background-color: var(--bg-color);
+}
+[data-md-color-scheme="slate"] .md-header {
+  background: rgba(5, 5, 5, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--glass-border);
+}
+[data-md-color-scheme="slate"] .md-sidebar {
+  background-color: transparent;
+}
+
+/* Interatividade - Botão de Progresso */
+.progress-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  color: var(--text-color);
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--font-main);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.progress-btn:hover {
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 10px rgba(0, 242, 255, 0.2);
+}
+
+.progress-btn.completed {
+  background: rgba(0, 255, 128, 0.1);
+  border-color: #00ff80;
+  color: #00ff80;
+  box-shadow: 0 0 10px rgba(0, 255, 128, 0.2);
+}
+
+.md-typeset tr.row-completed td {
+  opacity: 0.5;
+  background: rgba(0, 255, 128, 0.02) !important;
+  transition: var(--transition);
+}
+
+.md-typeset tr.row-completed td:first-child a {
+  text-decoration: line-through;
+  color: #888;
+}
